@@ -28,6 +28,7 @@ describe('Parent child chaining',()=>{
         cy.get('@productlocator').find('.product').should('have.length',4)
         // this wil generate error in future if more element added 
         cy.get('@productlocator').find('.product').eq(2).contains('ADD TO CART').click()
+        
         cy.get('@productlocator').find('.product').eq(2).contains('✔ ADDED').should('be.visible')
     
 
