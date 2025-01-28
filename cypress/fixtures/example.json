@@ -1,5 +1,5 @@
 {
   "username": "Admin",
   "password": "admin123",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "productName": ["iphone X", "Samsung Note 8", "Nokia Edge"] 
 }
