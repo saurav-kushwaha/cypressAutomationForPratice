@@ -6,4 +6,8 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    // set global environment variables
+    "url":"https://rahulshettyacademy.com/angularpractice/"
+  },
 });
