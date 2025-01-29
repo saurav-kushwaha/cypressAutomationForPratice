@@ -9,6 +9,8 @@
   "author": "saurav",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.0.1"
+    "cypress": "^14.0.1",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3"
   }
 }
