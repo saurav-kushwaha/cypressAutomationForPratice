@@ -4,7 +4,13 @@
   "description": "test automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run", 
+    "headedTest": "npm run test -- --headed",
+    "chromeTest ": "npm run test -- --browser chrome",
+    "edgeTest": "npm run test -- --browser edge",
+    "recordDashboardTest": "npm run test -- --record --key 293dbe56-1cb2-4ac9-bd03-38e4f99271da --reporter mochawesome"
+
+
   },
   "author": "saurav",
   "license": "ISC",
