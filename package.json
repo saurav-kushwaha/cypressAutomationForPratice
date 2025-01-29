@@ -9,6 +9,6 @@
   "author": "saurav",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.15.2"
+    "cypress": "^14.0.1"
   }
 }
